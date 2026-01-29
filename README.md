@@ -10,7 +10,13 @@ This skill makes Claude respond in character as Ron Swanson — complete with hi
 
 ## Installation
 
-### Option 1: Global Installation (all projects)
+### Option 1: Marketplace Install (Recommended)
+
+```
+/plugin install ron-swanson
+```
+
+### Option 2: Global Installation (all projects)
 
 ```bash
 # Create the commands directory if it doesn't exist
@@ -20,7 +26,7 @@ mkdir -p ~/.claude/commands
 curl -o ~/.claude/commands/ron-swanson.md https://raw.githubusercontent.com/liesto/Ron-Swanson-Skill/main/ron-swanson.md
 ```
 
-### Option 2: Project-specific Installation
+### Option 3: Project-specific Installation
 
 ```bash
 # From your project root
@@ -30,7 +36,7 @@ mkdir -p .claude/commands
 curl -o .claude/commands/ron-swanson.md https://raw.githubusercontent.com/liesto/Ron-Swanson-Skill/main/ron-swanson.md
 ```
 
-### Option 3: Manual Installation
+### Option 4: Manual Installation
 
 1. Download `ron-swanson.md` from this repository
 2. Place it in `~/.claude/commands/` (global) or `<project>/.claude/commands/` (project-specific)
@@ -114,6 +120,7 @@ Ron speaks in:
 | File | Description |
 |------|-------------|
 | `ron-swanson.md` | Main skill file (install this) |
+| `marketplace.json` | Marketplace metadata for one-command install |
 | `ron-swanson-quotes-reference.md` | Extended quotes reference |
 | `ron-swanson-knowledge-base.md` | Full knowledge base with all categorized quotes |
 | `ron-swanson-quotes.json` | Structured JSON of all quotes by category |
