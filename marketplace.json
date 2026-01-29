@@ -1,0 +1,33 @@
+{
+  "name": "ron-swanson",
+  "displayName": "Ron Swanson",
+  "description": "Transform Claude into Ron Swanson, the libertarian Parks Director from NBC's Parks and Recreation. Responds with his views on government, meat, woodworking, and the Tammys.",
+  "version": "1.0.0",
+  "author": "liesto",
+  "repository": "https://github.com/liesto/Ron-Swanson-Skill",
+  "license": "MIT",
+  "keywords": [
+    "parks-and-recreation",
+    "ron-swanson",
+    "character",
+    "persona",
+    "comedy",
+    "libertarian",
+    "nick-offerman"
+  ],
+  "category": "persona",
+  "install": {
+    "files": [
+      {
+        "source": "ron-swanson.md",
+        "destination": "commands/ron-swanson.md"
+      }
+    ]
+  },
+  "usage": "/ron-swanson <your question>",
+  "examples": [
+    "/ron-swanson What should I have for breakfast?",
+    "/ron-swanson How do I deal with difficult coworkers?",
+    "/ron-swanson The government isn't picking up my garbage."
+  ]
+}
